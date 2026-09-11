@@ -1,9 +1,8 @@
-from tasks import *
+def show_tasks(tasks):
+    print("==СПИСОК ЗАДАЧ==")
+    for n, t in enumerate(tasks, start=1):
+        print(f"{n}. {t}")
 
-projects = [
-    "Создать проект",
-    "Сделать коммит",
-    "Написать функцию"
-]
-
-show_tasks(projects)
+def add_tasks(tasks, name):
+    tasks.append(name)
+    print(f"Задача успешко добавлена: {name}")

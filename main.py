@@ -6,4 +6,7 @@ projects = [
     "Написать функцию"
 ]
 
+new_task = input("Введите новую задачу: ")
+add_tasks(projects, new_task)
+
 show_tasks(projects)

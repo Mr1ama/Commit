@@ -1,12 +1,14 @@
-from tasks import *
+from games import *
 
-projects = [
-    "Создать проект",
-    "Сделать коммит",
-    "Написать функцию"
+games = [
+    {
+        "name": "Каркассон",
+        "genre": "Стратегия"
+    }, 
+    {
+        "name": "Диксит",
+        "genre": "Воображение"
+    }
 ]
 
-new_task = input("Введите новую задачу: ")
-add_tasks(projects, new_task)
-
-show_tasks(projects)
+show_games(games)

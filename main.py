@@ -1,10 +1,11 @@
-from games import *
+from games import show_games
+
 
 games = [
     {
         "name": "Каркассон",
         "genre": "Стратегия"
-    }, 
+    },
     {
         "name": "Диксит",
         "genre": "Воображение"

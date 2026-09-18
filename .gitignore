@@ -3,3 +3,11 @@ venv/
 .idea/
 __pycache__/
 *.pyc
+# Python cache and build files
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
